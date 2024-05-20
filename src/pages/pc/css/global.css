@@ -1,0 +1,37 @@
+#root {
+  font-size: calc(100vw / 1440 * 1px);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#global-header-wrap,
+#global-footer {
+  flex-shrink: 0;
+  background-color: #fff;
+}
+#global-main-wrap {
+  flex-grow: 1;
+  background-color: #F9F8FD;
+}
+
+#global-header {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12rem 38rem;
+  padding-right: 109rem;
+}
+
+#global-main {
+  max-width: 1440rem;
+  margin: 0 auto;
+  flex-grow: 1;
+}
+
+#global-footer {
+  max-width: 1440px;
+  margin: 0 auto;
+}
