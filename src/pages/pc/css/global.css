@@ -20,6 +20,9 @@
 }
 
 /* 头部区域开始 */
+#global-header-wrap {
+  height: 66rem;
+}
 #global-header {
   max-width: 1440px;
   margin: 0 auto;
