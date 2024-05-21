@@ -6,7 +6,7 @@
 }
 
 #global-header-wrap,
-#global-footer {
+#global-footer-wrap {
   flex-shrink: 0;
   background-color: #fff;
 }
@@ -14,7 +14,12 @@
   flex-grow: 1;
   background-color: #F9F8FD;
 }
+#global-main, #global-footer-top {
+  max-width: 1440rem;
+  margin: 0 auto;
+}
 
+/* 头部区域开始 */
 #global-header {
   max-width: 1440px;
   margin: 0 auto;
@@ -24,14 +29,112 @@
   padding: 12rem 38rem;
   padding-right: 109rem;
 }
-
-#global-main {
-  max-width: 1440rem;
-  margin: 0 auto;
-  flex-grow: 1;
+#global-header .g-header-more {
+  width: 17rem;
+  height: 17rem;
+  margin-right: 40rem;
+}
+#global-header .g-header-logo {
+  width: 95rem;
+  height: 41rem;
+}
+#global-header .g-header-left {
+  display: flex;
+  align-items: center;
+}
+#global-header .g-header-right {
+  display: flex;
+  align-items: center;
 }
 
-#global-footer {
-  max-width: 1440px;
-  margin: 0 auto;
+.g-header-search {
+  width: 337rem;
+  height: 41rem;
+  margin-right: 24rem;
+  position: relative;
+  background-color: #EFEEF3;
+  border-radius: 21rem;
 }
+.g-header-icon-search {
+  width: 22rem;
+  height: 22rem;
+  position: absolute;
+  top: 11rem;
+  left: 11rem;
+}
+.g-header-input {
+  width: 100%;
+  height: 100%;
+  background-color: #EFEEF3;
+  border-radius: 21rem;
+  padding-left: 43rem;
+}
+.g-header-car {
+  width: 160rem;
+  height: 41rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 17rem;
+  color: #fff;
+  background-color: #3360A4;
+  border-radius: 21rem;
+  margin-right: 24rem;
+  cursor: pointer;
+}
+.g-header-car:hover {
+  box-shadow: 0 0 4px #007bff;
+  cursor: pointer;
+}
+.g-header-avatar {
+  width: 42rem;
+  height: 42rem;
+}
+/* 头部区域结束 */
+
+/* 底部区域开始 */
+#global-footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 200rem;
+  padding-left: 146rem;
+  padding-right: 42rem;
+}
+.g-f-t-l-top {
+  display: flex;
+  align-items: center;
+}
+.g-f-t-l-top img {
+  margin-right: 18rem;
+}
+.g-f-t-l-main {
+  font-size: 16rem;
+  color: #98846c;
+  line-height: 35rem;
+  margin-bottom: 20rem;
+}
+.g-f-t-right-li {
+  width: 372rem;
+  height: 41rem;
+  font-size: 16rem;
+  padding: 0 25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #efddc9;
+  color: #98846C;
+  border-radius: 21rem;
+  margin-bottom: 20rem;
+}
+
+#global-footer-bottom {
+  background-color: #FBF6F0;
+  color: #98846C;
+  font-size: 16rem;
+  height: 64rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* 底部区域结束 */
