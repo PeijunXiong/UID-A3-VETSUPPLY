@@ -8,30 +8,114 @@
 #global-header-wrap,
 #global-footer {
   flex-shrink: 0;
-  background-color: #fff;
 }
 #global-main-wrap {
   flex-grow: 1;
   background-color: #F9F8FD;
 }
 
+
+/* 头部区域开始 */
+#global-header-wrap {
+  background: #F9F8FD;
+}
 #global-header {
-  max-width: 1440px;
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 9rem 28rem;
-  padding-right: 11rem;
+  height: 40rem;
+  padding: 10rem 10rem 5rem 20rem;
 }
+.g-header-logo {
+  position: relative;
+  top: 12rem;
+  height: 38.72rem;
+  width: 67rem;
+}
+.g-header-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.g-header-search {
+  position: relative;
+  display: flex;
+  width: 185rem;
+  height: 26rem;
+  border-radius: 13rem;
+  background-color: #fff;
+  padding: 7rem 20rem 6rem 30rem;
+}
+.g-header-icon-search {
+  width: 12rem;
+  height: 12rem;
+  position: absolute;
+  top: 7rem;
+  left: 8rem;
+}
+.g-header-input {
+  width: 100%;
+  height: 100%;
+}
+.g-header-more {
+  width: 17rem;
+  height: 17rem;
+  margin-left: 14rem;
+}
+/* 头部区域结束 */
 
-#global-main {
-  max-width: 1440rem;
-  margin: 0 auto;
-  flex-grow: 1;
+/* 底部区域开始 */
+#global-footer-top {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 22.76rem;
 }
-
-#global-footer {
-  max-width: 1440px;
-  margin: 0 auto;
+.g-footer-top-ul .g-f-t-right-li {
+  width: 231rem;
+  height: 32.32rem;
+  background-color: #efddc9;
+  color: #98846c;
+  font-size: 12rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 18rem;
+  padding: 0 16rem;
+  margin-bottom: 15rem;
 }
+.li-icon {
+  font-size: 18rem;
+}
+.g-f-t-l-top {
+  padding-top: 7rem;
+}
+.g-f-t-l-top img {
+  width: 104rem;
+  height: 41rem;
+}
+.g-f-t-l-main p {
+  font-size: 12rem;
+  color: #98846c;
+  line-height: 27rem;
+  text-align: center;
+}
+.g-f-t-l-footer img {
+  width: 64rem;
+  height: 27rem;
+  margin-right: 18rem;
+}
+.g-f-t-l-footer img:last-of-type {
+  margin-right: 0;
+}
+#global-footer-bottom {
+  height: 64rem;
+  background-color: #fbf6f0;
+  color: #98846C;
+  font-size: 14rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* 底部区域结束 */
