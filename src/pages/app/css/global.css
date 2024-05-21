@@ -119,3 +119,21 @@
   align-items: center;
 }
 /* 底部区域结束 */
+
+#global-aside {
+  position: fixed;
+  right: 11rem;
+  bottom: 120rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#global-aside img {
+  width: 60rem;
+  height: 60rem;
+}
+#global-aside img:last-of-type {
+  width: 44rem;
+  height: 44rem;
+}

@@ -74,13 +74,18 @@ window.addEventListener("DOMContentLoaded", () => {
     // 购物车按钮
     const cartDom = document.querySelector(".g-header-car");
     cartDom.addEventListener("click", () => {
-        // TODO: 跳转到购物车页面
-        console.log("去购物车页面");
-    })
+      // TODO: 跳转到购物车页面
+      console.log("去购物车页面");
+    });
+    // 个人中心按钮
+    const personalDom = document.querySelector(".g-header-avatar");
+    personalDom.addEventListener("click", () => {
+      // TODO: 跳转个人中心页
+      console.log("去个人中心页");
+    });
   }
 
-
   // 初始化头部和底部
-  renderHeaderAndFooter()
-  bindEvent()
+  renderHeaderAndFooter();
+  bindEvent();
 });
