@@ -28,7 +28,10 @@
 #global-footer-top {
   background: #fff;
 }
-/* 头部区域开始 */
+#global-main {
+  margin-top: 66rem;
+}
+/* header start */
 #global-header-wrap {
   height: 66rem;
   position: fixed;
@@ -106,9 +109,9 @@
   height: 42rem;
   cursor: pointer;
 }
-/* 头部区域结束 */
+/* header end */
 
-/* 底部区域开始 */
+/* footer start */
 #global-footer-top {
   display: flex;
   justify-content: space-between;
@@ -153,4 +156,34 @@
   justify-content: center;
   align-items: center;
 }
-/* 底部区域结束 */
+/* footer end */
+
+/** counter start */
+.counter-wrap {
+  display: flex;
+}
+.command-btn {
+  width: 28rem;
+  height: 28rem;
+  background-color: #d1ae84;
+  color: #fff;
+  font-size: 18rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4rem 0 0 4rem;
+  cursor: pointer;
+}
+.command-btn:last-of-type {
+  border-radius: 0 4rem 4rem 0;
+}
+.count-num {
+  width: 28rem;
+  height: 28rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #d1ae84;
+  background-color: #f9f0e5;
+}
+/** counter end */

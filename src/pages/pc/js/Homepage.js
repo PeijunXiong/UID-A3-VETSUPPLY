@@ -42,10 +42,7 @@ window.addEventListener("DOMContentLoaded", () => {
     doms.petListWrap.addEventListener("click", (e) => {
       const target = e.target;
       if (target.classList.contains("m-main-petslist-pet-button")) {
-        console.log("click pet");
-        // TODO: 跳转页面
-        // const idx = target.parentElement.getAttribute("data-idx");
-        // window.location.href = `./pet.html?idx=${idx}`;
+        window.location.href = `./ProductPage.html`;
       }
     });
   }
