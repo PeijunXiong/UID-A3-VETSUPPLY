@@ -1,0 +1,82 @@
+.m-t-banner {
+    width: 100%;
+    max-width: 1440rem;
+    height: 524rem;
+}
+.m-t-banner img {
+    width: 100%;
+    height: 524rem;
+}
+.m-t-logo {
+    position: relative;
+    top: -33rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200rem;
+    justify-content: center;
+    margin: 0 auto;
+}
+.m-t-logo img {
+    width: 261rem;
+    /* height: 100rem; */
+}
+
+.m-main-pets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.m-main-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.m-main-title h2 {
+    font-size: 24rem;
+    color: #000;
+    font-weight: 700;
+    line-height: 31rem;
+}
+.m-main-title-bottom {
+    width: 86rem;
+    height: 11rem;
+    border-radius: 11rem;
+    background-color: #efddc9;
+}
+.m-main-petsList {
+    margin-top: 30rem;
+    display: flex;
+    margin-bottom: 52rem;
+}
+.m-main-petsList-pet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 33rem;
+}
+.m-main-petsList-pet:last-of-type {
+    margin-right: 0;
+}
+.m-main-petsList-pet img {
+    width: 197rem;
+    height: 197rem;
+    margin-bottom: 29rem;
+}
+.m-main-petslist-pet-button {
+    width: 197rem;
+    height: 41rem;
+    border-radius: 21rem;
+    background-color: #3d89c3;
+    color: #fff;
+    font-size: 16rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.m-main-footer img {
+    width: 204rem;
+    height: 31rem;
+}
