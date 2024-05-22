@@ -38,7 +38,7 @@
     font-weight: 700;
     line-height: 31rem;
 }
-.m-main-title-bottom {
+.title-bottom {
     width: 86rem;
     height: 11rem;
     border-radius: 11rem;
@@ -53,7 +53,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    cursor: pointer;
     margin-right: 33rem;
 }
 .m-main-petsList-pet:last-of-type {
@@ -75,8 +74,113 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
-.m-main-footer img {
+.m-main-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 204rem;
     height: 31rem;
+    color: #000;
+    opacity: 0.1;
+}
+.m-main-footer .line {
+    width: 47rem;
+    height: 1rem;
+    background-color: #000;
+}
+.m-main-footer .text {
+    font-size: 18rem;
+    margin: 0 20rem;
+    line-height: 18rem;
+}
+
+
+.m-main-products {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../../assets/images/home-product-bg.png");
+    background-size: cover;
+    margin-top: 40rem;
+    padding-top: 60rem;
+    padding-bottom: 45rem;
+}
+.m-m-p-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+.m-m-p-productsList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30rem;
+    max-width: 900rem;
+}
+.m-m-p-productsList img {
+    width: 446rem;
+    height: 262rem;
+}
+
+.m-m-p-foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 204rem;
+    height: 31rem;
+    color: #fff;
+    opacity: 0.4;
+    margin-top: 54rem;
+}
+.m-m-p-foot .line {
+    width: 47rem;
+    height: 1rem;
+    background-color: #fff;
+}
+.m-m-p-foot .text {
+    font-size: 18rem;
+    margin: 0 20rem;
+    line-height: 18rem;
+}
+
+.m-main-banner {
+    margin-top: 50rem;
+    position: relative;
+    display: flex;
+    left: -1003rem;
+}
+.m-main-banner img {
+    width: 1116rem;
+    height: 358rem;
+}
+.m-m-banner-cur {
+    margin: 0 40rem;
+}
+
+.m-main-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50rem;
+}
+.m-m-i-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.m-m-info {
+    width: 851rem;
+    height: 262rem;
+}
+.m-m-info-cat {
+    width: 307rem;
+    height: 151rem;
+    position: relative;
+    top: -75rem;
 }
