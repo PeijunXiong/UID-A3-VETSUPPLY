@@ -7,9 +7,7 @@ window.addEventListener("DOMContentLoaded", () => {
     header: document.querySelector("#global-header-wrap"),
     footer: document.querySelector("#global-footer-wrap"),
   };
-  // 渲染头部和底部
   function renderHeaderAndFooter() {
-    // 渲染头部
     function _renderHeader() {
       if (!doms.header) return;
       doms.header.innerHTML = ` <div id="global-header">
@@ -29,7 +27,6 @@ window.addEventListener("DOMContentLoaded", () => {
         </div>
       </div>`;
     }
-    // 渲染底部
     function _renderFooter() {
       if (!doms.footer) return;
       doms.footer.innerHTML = `<div id="global-footer-top">
@@ -69,19 +66,21 @@ window.addEventListener("DOMContentLoaded", () => {
     _renderHeader();
     _renderFooter();
   }
-  // 绑定事件
   function bindEvent() {
-    // 购物车按钮
+    // shoppingCar btn
     const cartDom = document.querySelector(".g-header-car");
     cartDom.addEventListener("click", () => {
-      // TODO: 跳转到购物车页面
-      console.log("去购物车页面");
+      window.location.href = "./ShoppingCartPage.html";
     });
-    // 个人中心按钮
+    // avatar
     const personalDom = document.querySelector(".g-header-avatar");
     personalDom.addEventListener("click", () => {
-      // TODO: 跳转个人中心页
-      console.log("去个人中心页");
+      window.location.href = "./PayAndPersonalPage.html";
+    });
+    // logo
+    const logoDom = document.querySelector(".g-header-logo");
+    logoDom.addEventListener("click", () => {
+      window.location.href = "./HomePage.html";
     });
   }
 

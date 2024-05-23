@@ -1,5 +1,6 @@
 #global-main {
     padding: 0 160rem;
+    margin-bottom: 40rem;
 }
 .m-top {
     margin-top: 34rem;
@@ -194,13 +195,17 @@
     background-color: #fff;
 }
 .msr-right-progress-wrap {
-    padding: 20rem 40rem;
+    padding: 10rem 40rem;
 }
 .msr-right-progress-item {
     display: flex;
     align-items: center;
     font-weight: 700;
     font-size: 18rem;
+    margin-top: 10rem;
+}
+.msr-right-progress-item:first-of-type {
+    margin-top: 0;
 }
 
 .progress-item-star {

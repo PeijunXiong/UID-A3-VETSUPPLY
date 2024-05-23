@@ -55,6 +55,7 @@
 #global-header .g-header-logo {
   width: 95rem;
   height: 41rem;
+  cursor: pointer;
 }
 #global-header .g-header-left {
   display: flex;

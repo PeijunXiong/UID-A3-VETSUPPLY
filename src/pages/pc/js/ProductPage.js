@@ -166,7 +166,6 @@ window.addEventListener("DOMContentLoaded", () => {
           console.log("未找到产品");
           return;
         }
-        console.log(item.previousElementSibling);
         const count = Number(item.previousElementSibling.innerText);
 
         const product = productsArr[productIdx];
