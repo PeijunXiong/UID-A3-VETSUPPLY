@@ -1,0 +1,129 @@
+#global-main {
+  padding: 0 160rem;
+  padding-bottom: 80rem;
+}
+.shopping-cart-warp {
+  margin-top: 83rem;
+  position: relative;
+  width: 1120rem;
+  background-color: #fff;
+  border-radius: 37rem;
+  padding: 30rem;
+}
+.shop-log {
+  position: absolute;
+  top: -53rem;
+  left: 50rem;
+}
+.shop-log img {
+  width: 248.5rem;
+  height: 83rem;
+}
+.shop-list {
+    margin-top: 20rem;
+}
+.shop-item {
+    margin-top: 40rem;
+    display: flex;
+    height: 118rem;
+}
+.shop-item:first-of-type {
+    margin-top: 0;
+}
+.shop-item-info {
+    flex-grow: 1;
+}
+.item-pic {
+    width: 118rem;
+    height: 118rem;
+    margin-right: 36rem;
+}
+.item-name {
+    font-size: 16rem;
+    font-weight: 600;
+}
+.item-pack {
+    margin-top: 7rem;
+    width: 102rem;
+    height: 35rem;
+    border-radius: 18rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 16rem;
+    cursor: pointer;
+    background-color: #DCBE9D;
+    color: #fff;
+}
+.item-price {
+    display: flex;
+    align-items: center;
+    font-size: 14rem;
+    margin-top: 20rem;
+}
+.price-num {
+    font-size: 30rem;
+    font-weight: 700;
+    margin: 0 10rem;
+    color: #D1ae84;
+}
+.shop-item-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.order-sum {
+    margin-top: 40rem;
+}
+.order-sum-title {
+    font-size: 20rem;
+    font-weight: 700;
+}
+.order-list-wrap {
+    width: 100%;
+    background-color: #c2d0e4;
+    border-radius: 16rem;
+    padding: 30rem;
+    margin-top: 30rem;
+}
+.order-li {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14rem;
+    font-weight: 600;
+    margin-bottom: 20rem;
+}
+.order-li:last-of-type {
+    margin-bottom: 0;
+}
+.order-li-num {
+    color: #3360A4;
+}
+.btn-wrap {
+    margin-top: 30rem;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 16rem;
+    font-weight: 500;
+}
+.continue-btn {
+    width: 217rem;
+    height: 41rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D1ae84;
+    border-radius: 22rem;
+    cursor: pointer;
+}
+.Checkout-btn {
+    width: 188rem;
+    height: 41rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3360A4;
+    border-radius: 22rem; 
+    cursor: pointer;
+}
