@@ -54,6 +54,7 @@
     cursor: pointer;
     background-color: #DCBE9D;
     color: #fff;
+    font-size: 14rem;
 }
 .item-price {
     display: flex;
