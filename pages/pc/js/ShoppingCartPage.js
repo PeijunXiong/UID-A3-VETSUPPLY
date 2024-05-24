@@ -31,7 +31,7 @@ window.addEventListener("DOMContentLoaded", () => {
     }, 0).toFixed(2)
     doms.subTotal.innerText = sum;
     // crandTotal = sum + Delivery(10)
-    doms.crandTotal.innerHTML = sum + 10;
+    doms.crandTotal.innerHTML = Number(sum + 10).toFixed(2);
   }
   function renderShopList() {
     const html = shopItems
