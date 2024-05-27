@@ -1,72 +1,7 @@
 import "./index.js";
-
-const maxCount = 1;
-const detailArr = [
-  {
-    id: 1,
-    img: "../../assets/images/detail1-img1.png",
-  },
-  {
-    id: 2,
-    img: "../../assets/images/detail1-img2.png",
-  },
-  {
-    id: 3,
-    img: "../../assets/images/detail1-img3.png",
-  },
-  {
-    id: 4,
-    img: "../../assets/images/detail1-img4.png",
-  },
-];
-const detailInfo = {
-  title: "Nothin to Hide Small Twist Stix Beff",
-  desc: "FieldCrest Farms Nothin to Hide Small Twist Stix: Delicious, healthy chew for dogs.",
-  price: 32.9,
-  count: 1,
-  isLove: false,
-  title2: "Hills Prescription Diet t/d Dental Care Chicken Dry Dog Food",
-  infos: [
-    `Hills Prescription Diet t/d Dental Care Chicken Dry Dog
- FoodHil's t/d Canine Dental Health Dog Food is a unique kibble
- form food for dog's for your dog's dental health.The key
- ingredients help te reduce plaque and tartar buildup. it
- prevents teeth staining and eliminates bad breath.This
- scientifically proven dental formula is also loaded with
- antioxidants to improve immune health and help dogs stay
- healthyThis kibble formulation prevents the buildup of plague
- and tartar, and hence, controls periodontal diseases in canines.`,
-    `Feed Hill's t/d Dental Dog Food only after vet's consent for
- complete dental care for dogs.`,
-  ],
-  score: 4.3,
-  scoreLevel: [
-    {
-      level: 5,
-      percent: 70,
-    },
-    {
-      level: 4,
-      percent: 90,
-    },
-    {
-      level: 3,
-      percent: 60,
-    },
-    {
-      level: 2,
-      percent: 40,
-    },
-    {
-      level: 1,
-      percent: 20,
-    },
-  ],
-};
-const detailData = {
-  detailArr,
-  detailInfo,
-};
+import mockData from "../../../common/js/mockData.js";
+const { maxCount, detailProduct1, detailProduct2 } = mockData;
+const detailData = window.location.search === '?id=product1' ? detailProduct1 : detailProduct2;
 
 window.addEventListener("DOMContentLoaded", () => {
   const doms = {
@@ -150,7 +85,8 @@ window.addEventListener("DOMContentLoaded", () => {
         .join("");
     }
     function renderScoreLevel() {
-      return detailData.detailInfo.scoreLevel.sort((a, b) => a.level - b.level)
+      return detailData.detailInfo.scoreLevel
+        .sort((a, b) => a.level - b.level)
         .map((level) => {
           return `<li class="msr-right-progress-item">
                 <span class="progress-item-idx">${level.level}</span>

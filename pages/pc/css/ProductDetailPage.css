@@ -109,6 +109,8 @@
     align-items: center;
 }
 .m-top-det-status {
+    width: 27rem;
+    height: 24rem;
     margin-left: 23rem;
     cursor: pointer;
 }
