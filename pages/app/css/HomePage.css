@@ -1,0 +1,191 @@
+.m-t-banner {
+    width: 375rem;
+    height: 246rem;
+}
+.m-t-banner img {
+    width: 375rem;
+    height: 246rem;
+}
+.m-t-logo {
+    position: relative;
+    top: -33rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 375rem;
+    justify-content: center;
+    margin: 0 auto;
+}
+.m-t-logo img {
+    width: 80rem;
+    height: 25rem;
+}
+
+.m-main-pets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.m-main-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.m-main-title h2 {
+    font-size: 14rem;
+    color: #000;
+    font-weight: 700;
+    line-height: 31rem;
+}
+.title-bottom {
+    width: 86rem;
+    height: 11rem;
+    border-radius: 11rem;
+    background-color: #efddc9;
+}
+.m-main-petsList {
+    margin-top: 20rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 14rem;
+}
+.m-main-petsList-pet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 39rem;
+    margin-bottom: 14rem;
+}
+.m-main-petsList-pet:nth-of-type(3),.m-main-petsList-pet:nth-of-type(5) {
+    margin-right: 0;
+}
+.m-main-petsList-pet img {
+    width: 64rem;
+    height: 64rem;
+    margin-bottom: 9rem;
+}
+.m-main-petslist-pet-button {
+    width: 67rem;
+    height: 22rem;
+    border-radius: 21rem;
+    background-color: #3d89c3;
+    color: #fff;
+    font-size: 12rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.m-main-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 121rem;
+    height: 31rem;
+    color: #000;
+    opacity: 0.1;
+}
+.m-main-footer .line {
+    width: 22rem;
+    height: 1rem;
+    background-color: #000;
+}
+.m-main-footer .text {
+    font-size: 12rem;
+    margin: 0 16rem;
+    line-height: 31rem;
+}
+
+
+.m-main-products {
+    width: 375rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../../assets/images/home-product-bg.png");
+    background-size: cover;
+    margin-top: 10rem;
+    padding-top: 21rem;
+    padding-bottom: 8rem;
+}
+.m-m-p-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    font-size: 14rem;
+}
+.m-m-p-productsList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 13rem;
+}
+.m-m-p-productsList img {
+    width: 175rem;
+    height: 117rem;
+}
+
+.m-m-p-foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 121rem;
+    height: 31rem;
+    color: #fff;
+    opacity: 0.4;
+    margin-top: 9rem;
+}
+.m-m-p-foot .line {
+    width: 22rem;
+    height: 1rem;
+    background-color: #fff;
+}
+.m-m-p-foot .text {
+    font-size: 12rem;
+    margin: 0 16rem;
+    line-height: 31rem;
+}
+
+.m-main-banner {
+    margin-top: 23rem;
+    position: relative;
+    display: flex;
+    left: -260rem;
+}
+.m-main-banner img {
+    width: 290rem;
+    height: 93rem;
+}
+.m-m-banner-cur {
+    margin: 0 15rem;
+}
+
+.m-main-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 23rem;
+}
+.m-m-i-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14rem;
+    text-align: center;
+}
+.m-m-info {
+    margin-top: 12rem;
+    width: 333rem;
+    height: 241rem;
+}
+.m-m-info-cat {
+    width: 161rem;
+    height: 80rem;
+    position: relative;
+    top: -33rem;
+}

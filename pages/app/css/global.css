@@ -1,5 +1,4 @@
 #root {
-  font-size: calc(100vw / 375 * 1px);
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -17,7 +16,11 @@
 
 /* 头部区域开始 */
 #global-header-wrap {
-  background: #F9F8FD;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 375rem;
+  background-color: transparent;
 }
 #global-header {
   display: flex;
@@ -28,7 +31,7 @@
 }
 .g-header-logo {
   position: relative;
-  top: 12rem;
+  top: 4rem;
   height: 38.72rem;
   width: 67rem;
 }
