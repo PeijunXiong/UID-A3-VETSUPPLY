@@ -87,22 +87,26 @@ window.addEventListener("DOMContentLoaded", () => {
     }
     _renderHeader();
     _renderFooter();
-    _renderAside()
+    _renderAside();
   }
   // 绑定事件
   function bindEvent() {
-    // 购物车按钮
+    // shoppingCar btn
     const cartDom = document.querySelector("#shopcart");
     cartDom.addEventListener("click", () => {
-      // TODO: 跳转到购物车页面
-      console.log("去购物车页面");
+      window.location.href = "./ShoppingCartPage.html";
     });
-    // 个人中心按钮
+    // avatar
     const personalDom = document.querySelector("#personal");
     personalDom.addEventListener("click", () => {
-        // TODO: 跳转个人中心页
-        console.log("去个人中心页");
-    })
+      window.location.href = "./PayAndPersonalPage.html";
+    });
+
+    // logo
+    const logoDom = document.querySelector(".g-header-logo");
+    logoDom.addEventListener("click", () => {
+      window.location.href = "./HomePage.html";
+    });
   }
 
   // 初始化头部和底部
