@@ -10,6 +10,7 @@ window.addEventListener("DOMContentLoaded", () => {
         doms.dialog.style.display = "block"
     })
     doms.dialogOk.addEventListener("click", () => {
-        doms.dialog.style.display = "none"
+        doms.dialog.style.display = "none";
+        window.location.href = "./FinishedPage.html"
     })
 })

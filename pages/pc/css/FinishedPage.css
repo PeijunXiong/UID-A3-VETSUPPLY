@@ -1,0 +1,9 @@
+#global-main {
+    padding: 30rem;
+    display: flex;
+    justify-content: center;
+}
+.pc-finish {
+    width: 1120rem;
+    height: 550rem;
+}
