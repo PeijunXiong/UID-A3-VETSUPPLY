@@ -21,6 +21,7 @@
   left: 0;
   width: 375rem;
   background-color: transparent;
+  z-index: 999;
 }
 #global-header {
   display: flex;
@@ -128,6 +129,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  z-index: 99999;
 }
 #global-aside img {
   width: 60rem;

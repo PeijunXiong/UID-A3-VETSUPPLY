@@ -121,7 +121,7 @@
 .m-pagination {
     margin-top: 20rem;
     display: flex;
-    justify-content: end;
+    justify-content: center;
     margin-bottom: 80rem;
 }
 .page-item {

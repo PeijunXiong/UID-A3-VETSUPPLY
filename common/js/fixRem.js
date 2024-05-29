@@ -20,10 +20,11 @@ export function flexible(designWidth) {
 
   // set 1rem = viewWidth / 10
   function setRemUnit() {
-    const viewportWidth = Math.min(
-      document.documentElement.clientWidth,
-      designWidth
-    );
+    // const viewportWidth = Math.min(
+    //   document.documentElement.clientWidth,
+    //   designWidth
+    // );
+    const viewportWidth = document.documentElement.clientWidth
     const scaleFactor = viewportWidth / designWidth;
     var rem = baseFontSize * scaleFactor;
     docEl.style.fontSize = rem + "px";
