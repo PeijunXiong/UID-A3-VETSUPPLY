@@ -4,7 +4,7 @@ const detailProduct1 = {
     detailArr:  [
         {
           id: 1,
-          img: "../../assets/images/detail1-img1.png",
+          img: "../../assets/images/app-detail1.png",
         },
         {
           id: 2,
@@ -68,7 +68,7 @@ const detailProduct2 = {
     detailArr:  [
         {
           id: 1,
-          img: "../../assets/images/detail2-img1.png",
+          img: "../../assets/images/app-detail2.png",
         },
         {
           id: 2,
@@ -99,9 +99,7 @@ const detailProduct2 = {
        scientifically proven dental formula is also loaded with
        antioxidants to improve immune health and help dogs stay
        healthyThis kibble formulation prevents the buildup of plague
-       and tartar, and hence, controls periodontal diseases in canines.`,
-          `Feed Hill's t/d Dental Dog Food only after vet's consent for
-       complete dental care for dogs.`,
+       and tartar, and hence, controls periodontal diseases in canines.`
         ],
         score: 3.8,
         scoreLevel: [

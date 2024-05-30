@@ -1,3 +1,6 @@
+#global-main-wrap {
+    margin-bottom: 60rem;
+}
 .pic-wrap {
     width: 375rem;
     height: 375rem;
@@ -176,4 +179,39 @@
     height: 100%;
     border-radius: 5rem;
     background-color: #FFD051;
+}
+
+.count-cart-wrap {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 375rem;
+    height: 62rem;
+    box-shadow: 0px 2rem 16rem  #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14rem;
+    background-color: #fff;
+}
+.footer-left {
+    display: flex;
+}
+.footer-left img {
+    width: 19rem;
+    height: 17rem;
+    margin-right: 20rem;
+}
+.add-to-cart {
+    width: 135rem;
+    height: 34rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14rem;
+    color: #fff;
+    background-color: #3360a4;
+    border-radius: 21rem;
+    cursor: pointer;
+    border: none;
 }
