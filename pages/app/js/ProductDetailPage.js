@@ -57,13 +57,6 @@ window.addEventListener("DOMContentLoaded", () => {
     });
   }
   function renderMain() {
-    function renderSmallImg() {
-      return detailData.detailArr
-        .map((detail) => {
-          return `<img src="${detail.img}" data-id=${detail.id} />`;
-        })
-        .join("");
-    }
     function renderTextInfo() {
       return detailData.detailInfo.infos
         .map((info) => {

@@ -1,0 +1,9 @@
+#global-main {
+    padding-top: 60rem;
+    display: flex;
+    justify-content: center;
+}
+.app-finish {
+    width: 375rem;
+    /* height: 550rem; */
+}
