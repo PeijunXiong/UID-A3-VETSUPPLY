@@ -3,6 +3,9 @@
   flex-direction: column;
   height: 100vh;
   overflow-y: auto;
+  width: 375rem;
+  overflow-x: hidden;
+  background-color: #f5f5f5;
 }
 
 #global-header-wrap,
@@ -11,9 +14,8 @@
 }
 #global-main-wrap {
   flex-grow: 1;
-  background-color: #F9F8FD;
+  background-color: #f9f8fd;
 }
-
 
 #global-header-wrap {
   position: absolute;
@@ -114,7 +116,7 @@
 #global-footer-bottom {
   height: 64rem;
   background-color: #fbf6f0;
-  color: #98846C;
+  color: #98846c;
   font-size: 14rem;
   display: flex;
   justify-content: center;

@@ -6,15 +6,178 @@
     <title>PayAndPersonalPage</title>
     <link rel="stylesheet" href="../../common/css/reset.css" />
     <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/PayAndPersonalPage.css" />
     <script src="./js/PayAndPersonalPage.js" type="module"></script>
   </head>
   <body>
     <div id="root">
       <header id="global-header-wrap"></header>
       <main id="global-main-wrap">
-        <div id="global-main">支付和个人信息</div>
+        <div id="global-main">
+          <div class="shopping-cart-warp">
+            <div class="shop-log">
+              <img src="../../assets/images/app-shop-cart.png" alt="" />
+              <div class="icon-down down"></div>
+            </div>
+            <div class="contentDown">
+              <div class="shop-list">
+                <div class="shop-item">
+                  <img
+                    src="../../assets/images/detail1-img1.png"
+                    class="item-pic"
+                    alt=""
+                  />
+                  <div class="shop-item-info">
+                    <div class="item-name">
+                      Nothin to Hide Small Twist Stix Beff
+                    </div>
+                    <div class="item-bo">
+                      <div class="item-pack">Big</div>
+                      <div class="item-price">
+                        <span class="price-icon">$</span>
+                        <span class="price-num">32.9</span>
+                        <div class="item-num">
+                          <span>x</span>
+                          <span class="item-count">1</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="shop-item">
+                  <img
+                    src="../../assets/images/detail2-img1.png"
+                    class="item-pic"
+                    alt=""
+                  />
+                  <div class="shop-item-info">
+                    <div class="item-name">
+                      Hill's Prescription Diet T/D Dental Care With Chicken Dr…
+                    </div>
+                    <div class="item-bo">
+                      <div class="item-pack">Big</div>
+                      <div class="item-price">
+                        <span class="price-icon">$</span>
+                        <span class="price-num">32.9</span>
+                        <div class="item-num">
+                          <span>x</span>
+                          <span class="item-count">1</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="order-sum">
+                <h2 class="order-sum-title">ORDER SUMMARY</h2>
+                <ul class="order-list-wrap">
+                  <li class="order-li">
+                    <span>Subtotal:</span>
+                    <div class="order-li-num">
+                      <span>$</span>
+                      <span class="order-li-num-price" id="subTotal"
+                        >45.37</span
+                      >
+                    </div>
+                  </li>
+                  <li class="order-li">
+                    <span>Discount:</span>
+                    <div class="order-li-num">
+                      <span>$</span>
+                      <span class="order-li-num-price">0</span>
+                    </div>
+                  </li>
+                  <li class="order-li">
+                    <span>Delivery Fee:</span>
+                    <div class="order-li-num">
+                      <span>$</span>
+                      <span class="order-li-num-price">10</span>
+                    </div>
+                  </li>
+                  <li class="order-li">
+                    <span>Crand Total:</span>
+                    <div class="order-li-num">
+                      <span>$</span>
+                      <span class="order-li-num-price" id="crandTotal"
+                        >55.37</span
+                      >
+                    </div>
+                  </li>
+                  <div class="upwrap">
+                    <div class="icon-down up"></div>
+                  </div>
+                </ul>
+              </div>
+            </div>
+            <div class="contentUp">
+              <img src="../../assets/images/detail1-img1.png" alt="" />
+              <img src="../../assets/images/detail2-img1.png" alt="" />
+            </div>
+          </div>
+          <div class="personal-info-wrap">
+            <div class="info-item">
+              <label for="first-name"
+                >First Name <span class="must">*</span></label
+              >
+              <input type="text" id="first-name" />
+            </div>
+            <div class="info-item">
+              <label for="last-name"
+                >Last Name <span class="must">*</span></label
+              >
+              <input type="text" id="last-name" />
+            </div>
+            <div class="info-item">
+              <label for="address"
+                >Address Line <span class="must">*</span></label
+              >
+              <input type="text" id="address" />
+            </div>
+            <div class="info-item">
+              <label for="Suburb">Suburb <span class="must">*</span></label>
+              <input type="text" id="Suburb" />
+            </div>
+            <div class="info-item">
+              <label for="PostCode">PostCode<span class="must">*</span></label>
+              <input type="text" id="PostCode" />
+            </div>
+            <div class="info-item">
+              <label for="Country">Country <span class="must">*</span></label>
+              <select id="Country">
+                <option value="Australia">Australia</option>
+                <option value="New Zealand">New Zealand</option>
+                <option value="United States">United States</option>
+                <option value="United Kingdom">United Kingdom</option>
+              </select>
+            </div>
+            <div class="info-item">
+              <label for="State">State<span class="must">*</span></label>
+              <select id="State">
+                <option value="NSW">NSW</option>
+                <option value="VIC">VIC</option>
+                <option value="QLD">QLD</option>
+              </select>
+            </div>
+            <div class="info-item">
+              <label for="Phone">Phone<span class="must">*</span></label>
+              <input type="text" id="Phone" />
+            </div>
+          </div>
+          <div class="payment-wrap">
+            <img src="../../assets/images/app-payment.png" alt="">
+            <button class="pay-btn">PAY USING CARD</button>
+          </div>
+        </div>
       </main>
       <aside id="global-aside"></aside>
+    </div>
+    <div class="dialog">
+      <div class="mask"></div>
+      <div class="dialog-content">
+        <img src="../../assets/images/pay-success.png" class="pay-success" alt="">
+        <p>YOUR ORDER IS PROCESSING</p>
+        <button class="dialog-ok">OK</button>
+      </div>
     </div>
   </body>
 </html>

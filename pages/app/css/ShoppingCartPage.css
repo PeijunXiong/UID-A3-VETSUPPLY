@@ -1,0 +1,43 @@
+#global-main-wrap {
+    margin-top: 40rem;
+}
+#global-main {
+    padding-top: 20rem;
+}
+
+.cart {
+    width: 375rem;
+}
+.btn-wrap {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 375rem;
+    height: 62rem;
+    box-shadow: 0px 2rem 16rem  #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14rem;
+    background-color: #fff;
+}
+
+.btn {
+    width: 135rem;
+    height: 34rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14rem;
+    color: #fff;
+    background-color: #3360a4;
+    border-radius: 21rem;
+    cursor: pointer;
+    border: none;
+    box-shadow:inset 0px -3px 3px  #3360A4, 0px 4px 8px  #3360A4;
+}
+.continue-btn {
+    background-color: #D1AE84;
+    margin-right: 10rem;
+    box-shadow: 0px 4px 8px  #D1AE84;
+}
