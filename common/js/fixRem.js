@@ -1,9 +1,9 @@
 /**
- * 自适应 设计稿的宽度，以像素为单位
+ * Adaptive Width of the design with pixels
  * @param {*} designWidth
  */
 export function flexible(designWidth) {
-  const baseFontSize = 1; // 基准字体大小，对应根元素的字体大小
+  const baseFontSize = 1; // Base font size, corresponding to the font size of the root element
 
   var docEl = document.documentElement;
   var dpr = window.devicePixelRatio || 1;
