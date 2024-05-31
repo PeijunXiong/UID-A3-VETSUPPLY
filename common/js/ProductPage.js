@@ -125,7 +125,7 @@ window.addEventListener("DOMContentLoaded", () => {
         const id = item.getAttribute("data-id");
         const productIdx = productsArr.findIndex((p) => p.id === id);
         if (productIdx < 0) {
-          console.log("未找到产品");
+          console.log("can't find product");
           return;
         }
         const product = productsArr[productIdx];
@@ -162,7 +162,7 @@ window.addEventListener("DOMContentLoaded", () => {
         const id = item.getAttribute("data-id");
         const productIdx = productsArr.findIndex((p) => p.id === id);
         if (productIdx < 0) {
-          console.log("未找到产品");
+          console.log("can't find product");
           return;
         }
         const count = Number(item.previousElementSibling.innerText);
